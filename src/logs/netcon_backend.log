@@ -2397,3 +2397,14 @@
 2025-12-22 15:41:28,891 WARNING security Thread-16 (process_request_thread) : Security Event: trial_expired_access_attempt - {"user_id": "7", "ip_address": "127.0.0.1", "timestamp": "2025-12-22T09:41:28.891810+00:00"}
 2025-12-22 15:41:28,892 INFO app Thread-16 (process_request_thread) : Response: 403 - http://localhost:5000/api/ej/load_logs
 2025-12-22 15:41:28,893 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [22/Dec/2025 15:41:28] "[31m[1mPOST /api/ej/load_logs HTTP/1.1[0m" 403 -
+2026-01-04 03:39:27,704 INFO app MainThread : Database tables created successfully
+2026-01-04 03:39:54,283 INFO app MainThread : Database tables created successfully
+2026-01-04 03:39:54,411 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-04 03:39:54,412 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2026-01-04 03:40:01,123 INFO app Thread-2 (process_request_thread) : GET http://127.0.0.1:5000/ - 127.0.0.1
+2026-01-04 03:40:01,125 INFO app Thread-2 (process_request_thread) : Response: 404 - http://127.0.0.1:5000/
+2026-01-04 03:40:01,126 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [04/Jan/2026 03:40:01] "[33mGET / HTTP/1.1[0m" 404 -
+2026-01-04 03:40:01,259 INFO app Thread-3 (process_request_thread) : GET http://127.0.0.1:5000/favicon.ico - 127.0.0.1
+2026-01-04 03:40:01,259 INFO app Thread-3 (process_request_thread) : Response: 404 - http://127.0.0.1:5000/favicon.ico
+2026-01-04 03:40:01,261 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [04/Jan/2026 03:40:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
